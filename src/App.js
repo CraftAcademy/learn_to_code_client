@@ -1,9 +1,10 @@
 import React from 'react'
+import DisplayInformation from './components/DisplayInformation'
 
 const App = () => {
   return (
     <>
-      <h1>Learn To Code</h1>
+      <DisplayInformation/>
     </>
   )
 }
