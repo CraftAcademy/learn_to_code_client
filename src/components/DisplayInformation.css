@@ -16,6 +16,11 @@
   border: 2px solid darkgray;
   height: 60px;
   line-height: 60px;
+  transition: 0.5s;
+}
+
+.category-name:hover {
+  font-size: 26px;
 }
 
 .title {
@@ -23,12 +28,20 @@
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
+  margin-bottom: 30px;
+  margin-top: 150px;
+  transition: 1s;
+}
+
+.title:hover {
+  font-size: 50px;
 }
 
 .tagline {
   font-size: 14px;
   font-weight: bold;
   text-align: center;
+  margin-bottom: 45px;
 }
 
 .tech-container {
@@ -42,4 +55,11 @@
   text-transform: uppercase;
   height: 30px;
   line-height: 30px;
+  transition: 0.5s;
+}
+
+.technology:hover{
+  font-size: 20px;
+  font-weight: bold;
+  background-color: gray;
 }

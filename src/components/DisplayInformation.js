@@ -81,15 +81,15 @@ const DisplayInformation = () => {
 
   return (
     <div>
-      <h1 className="title">Learn to Code</h1>
-      <h3 className="tagline">
-        Acquire skills in several dimensions and become a complete programmer{" "}
-      </h3>
+      <div className="title">Learn to Code</div>
+      <div className="tagline">
+        Acquire skills in several dimensions and become a complete programmer
+      </div>
       <div className="container">
         {information.categories.map(category => (
           <div className="category">
             <div className="category-name">{category.name}</div>
-            <div className="tech-container" >
+            <div className="tech-container">
               {category.technologies.map(technology => (
                 <div className="technology">{technology.name}</div>
               ))}
