@@ -10,6 +10,11 @@
   font-weight: bold;
 }
 
+.category-name {
+  border: 2px solid darkgray;
+  /* border-radius: 0 30% 30% 0; */
+}
+
 .title {
   font-size: 42px;
   font-weight: bold;
@@ -23,6 +28,12 @@
   text-align: center;
 }
 
+.tech-container {
+  border: 1px solid gray;
+  border-radius: 0 0 10% 10%;
+}
+
 .technology {
- font-size: 14px;
+  font-size: 14px;
+  border-top: 0.5px solid gray;
 }

@@ -88,10 +88,10 @@ const DisplayInformation = () => {
       <div className="container">
         {information.categories.map(category => (
           <div className="category">
-            {category.name}
-            <div className="technology">
+            <div className="category-name">{category.name}</div>
+            <div className="tech-container" >
               {category.technologies.map(technology => (
-                <div>{technology.name}</div>
+                <div className="technology">{technology.name}</div>
               ))}
             </div>
           </div>
