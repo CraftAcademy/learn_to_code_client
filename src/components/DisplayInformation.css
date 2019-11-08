@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin: 5px;
+  padding: 5px;
+}
+
+.category {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 42px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.tagline {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}

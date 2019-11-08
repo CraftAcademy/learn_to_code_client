@@ -1,5 +1,6 @@
 import React, {useState,useEffect} from 'react'
 import axios from "axios"
+import "./DisplayInformation.css"
 
 const DisplayInformation = () => {
   const initialState = {
@@ -31,9 +32,11 @@ const [information, setInformation] = useState(initialState)
   
   return (
     <div>
-      <h1>COMMON TECHNOLOGIES</h1>
-      <h3>that you would need to develop expertise in</h3>
-      {information.categories.map(category => <h3>{category.name}</h3>)}
+      <h1 className="title">Learn to Code</h1>
+      <h3 className="tagline">Acquire skills in several dimensions and become a complete programmer </h3>
+      <div className="container">
+      {information.categories.map(category => <div className="category">{category.name}</div>)}
+      </div>
     </div>
   )
 }
