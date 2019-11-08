@@ -21,6 +21,7 @@
 
 .category-name:hover {
   font-size: 26px;
+  background: linear-gradient(to left, #fff3ef, #ff6026)
 }
 
 .title {
@@ -61,5 +62,5 @@
 .technology:hover{
   font-size: 20px;
   font-weight: bold;
-  background-color: gray;
+  background: linear-gradient(to right, #fff3ef, #ff6026)
 }
