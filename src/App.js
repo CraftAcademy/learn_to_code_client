@@ -1,9 +1,10 @@
 import React from 'react'
+import { IndexPage } from './IndexPage/IndexPage'
 
 const App = () => {
   return (
     <>
-      <h1>Learn To Code</h1>
+      <IndexPage />
     </>
   )
 }

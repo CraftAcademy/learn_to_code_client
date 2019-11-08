@@ -1,0 +1,43 @@
+.title {
+  padding: 1rem 1.5rem;
+  border-radius: 50px 50px 50px 0px;
+  background: white;
+  letter-spacing: 2px;
+  position: relative;
+  z-index: 2;
+  margin: 0;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+}
+
+.itemsContainer {
+  padding: 1rem;
+  background-color: white;
+  margin: 0;
+  width: 75%;
+  border-radius: 0px 0px 50px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item {
+  border-bottom: lightgray 1px dotted;
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+}
+
+.categoriesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.categoryContainer {
+  margin: 2rem;
+  width: 20%;
+}
