@@ -8,11 +8,14 @@
 .category {
   font-size: 18px;
   font-weight: bold;
+  width: 300px;
+  text-align: center;
 }
 
 .category-name {
   border: 2px solid darkgray;
-  /* border-radius: 0 30% 30% 0; */
+  height: 60px;
+  line-height: 60px;
 }
 
 .title {
@@ -36,4 +39,7 @@
 .technology {
   font-size: 14px;
   border-top: 0.5px solid gray;
+  text-transform: uppercase;
+  height: 30px;
+  line-height: 30px;
 }
